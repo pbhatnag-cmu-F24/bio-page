@@ -4,7 +4,7 @@ describe('Demo Test Suite', () => {
           expect(1).toBe(1);
     });
   
-    test('Demo bad test', () => {
-          expect(8 + 8).toBe(0);
+    test('Demo good test', () => {
+          expect(8 + 8).toBe(16);
     });
   });
